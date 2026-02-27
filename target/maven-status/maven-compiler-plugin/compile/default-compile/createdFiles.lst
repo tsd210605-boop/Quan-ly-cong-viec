@@ -1,0 +1,16 @@
+controller\DashboardServlet.class
+model\Task.class
+controller\LoginServlet.class
+controller\PageControllerServlet.class
+controller\UpdateTaskServlet.class
+util\DBConnection.class
+controller\EditTaskServlet.class
+filter\AuthFilter.class
+controller\AddTaskServlet.class
+controller\StatisticsServlet.class
+controller\DeleteTaskServlet.class
+dao\TaskDAO.class
+controller\LogoutServlet.class
+controller\UpdateStatusServlet.class
+dao\UserDAO.class
+model\User.class

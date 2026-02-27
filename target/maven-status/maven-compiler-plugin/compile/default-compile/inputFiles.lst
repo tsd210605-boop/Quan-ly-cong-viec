@@ -1,0 +1,16 @@
+D:\NetBeansProjects\WorkManagement\src\main\java\controller\AddTaskServlet.java
+D:\NetBeansProjects\WorkManagement\src\main\java\controller\DashboardServlet.java
+D:\NetBeansProjects\WorkManagement\src\main\java\controller\DeleteTaskServlet.java
+D:\NetBeansProjects\WorkManagement\src\main\java\controller\EditTaskServlet.java
+D:\NetBeansProjects\WorkManagement\src\main\java\controller\LoginServlet.java
+D:\NetBeansProjects\WorkManagement\src\main\java\controller\LogoutServlet.java
+D:\NetBeansProjects\WorkManagement\src\main\java\controller\PageControllerServlet.java
+D:\NetBeansProjects\WorkManagement\src\main\java\controller\StatisticsServlet.java
+D:\NetBeansProjects\WorkManagement\src\main\java\controller\UpdateStatusServlet.java
+D:\NetBeansProjects\WorkManagement\src\main\java\controller\UpdateTaskServlet.java
+D:\NetBeansProjects\WorkManagement\src\main\java\dao\TaskDAO.java
+D:\NetBeansProjects\WorkManagement\src\main\java\dao\UserDAO.java
+D:\NetBeansProjects\WorkManagement\src\main\java\filter\AuthFilter.java
+D:\NetBeansProjects\WorkManagement\src\main\java\model\Task.java
+D:\NetBeansProjects\WorkManagement\src\main\java\model\User.java
+D:\NetBeansProjects\WorkManagement\src\main\java\util\DBConnection.java

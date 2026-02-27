@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/NetBeansProjects/WorkManagement/web/add-task.jsp</file>
+            <file>file:/D:/NetBeansProjects/WorkManagement/web/admin.jsp</file>
+            <file>file:/D:/NetBeansProjects/WorkManagement/web/dashboard.jsp</file>
+            <file>file:/D:/NetBeansProjects/WorkManagement/web/edit-task.jsp</file>
+            <file>file:/D:/NetBeansProjects/WorkManagement/web/header.jsp</file>
+            <file>file:/D:/NetBeansProjects/WorkManagement/web/profile.jsp</file>
+            <file>file:/D:/NetBeansProjects/WorkManagement/web/statistics.jsp</file>
+            <file>file:/D:/NetBeansProjects/WorkManagement/web/tasks.jsp</file>
+            <file>file:/D:/NetBeansProjects/WorkManagement/src/java/controller/AddTaskServlet.java</file>
+            <file>file:/D:/NetBeansProjects/WorkManagement/src/java/controller/DashboardServlet.java</file>
+            <file>file:/D:/NetBeansProjects/WorkManagement/src/java/controller/DeleteTaskServlet.java</file>
+            <file>file:/D:/NetBeansProjects/WorkManagement/src/java/controller/EditTaskServlet.java</file>
+            <file>file:/D:/NetBeansProjects/WorkManagement/src/java/controller/LoginServlet.java</file>
+            <file>file:/D:/NetBeansProjects/WorkManagement/src/java/controller/LogoutServlet.java</file>
+            <file>file:/D:/NetBeansProjects/WorkManagement/src/java/controller/PageControllerServlet.java</file>
+            <file>file:/D:/NetBeansProjects/WorkManagement/src/java/controller/StatisticsServlet.java</file>
+            <file>file:/D:/NetBeansProjects/WorkManagement/src/java/controller/UpdateStatusServlet.java</file>
+            <file>file:/D:/NetBeansProjects/WorkManagement/src/java/controller/UpdateTaskServlet.java</file>
+            <file>file:/D:/NetBeansProjects/WorkManagement/src/java/dao/TaskDAO.java</file>
+            <file>file:/D:/NetBeansProjects/WorkManagement/src/java/dao/UserDAO.java</file>
+            <file>file:/D:/NetBeansProjects/WorkManagement/src/java/filter/AuthFilter.java</file>
+            <file>file:/D:/NetBeansProjects/WorkManagement/src/java/model/Task.java</file>
+            <file>file:/D:/NetBeansProjects/WorkManagement/src/java/model/User.java</file>
+            <file>file:/D:/NetBeansProjects/WorkManagement/src/java/util/DBConnection.java</file>
+            <file>file:/D:/NetBeansProjects/WorkManagement/web/index.jsp</file>
+        </group>
+    </open-files>
+</project-private>
