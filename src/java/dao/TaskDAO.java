@@ -12,15 +12,23 @@ public class TaskDAO {
     // =========================
     // LẤY DANH SÁCH TASK (ADMIN / USER)
     // =========================
- public List<Task> getTasksByUser(int userId, String role) {
+public List<Task> getTasksByUser(int userId, String role) {
+
     List<Task> list = new ArrayList<>();
     String sql;
 
-    // ADMIN xem tất cả
+    // ADMIN xem tất cả task
     if ("ADMIN".equalsIgnoreCase(role)) {
-        sql = "SELECT * FROM tasks ORDER BY created_at DESC";
+        sql = "SELECT t.*, u.username " +
+              "FROM tasks t " +
+              "JOIN users u ON t.user_id = u.id " +
+              "ORDER BY t.created_at DESC";
     } else {
-        sql = "SELECT * FROM tasks WHERE user_id = ? ORDER BY created_at DESC";
+        sql = "SELECT t.*, u.username " +
+              "FROM tasks t " +
+              "JOIN users u ON t.user_id = u.id " +
+              "WHERE t.user_id = ? " +
+              "ORDER BY t.created_at DESC";
     }
 
     try (Connection conn = DBConnection.getConnection();
@@ -33,6 +41,7 @@ public class TaskDAO {
         ResultSet rs = ps.executeQuery();
 
         while (rs.next()) {
+
             Task task = new Task();
             task.setId(rs.getInt("id"));
             task.setTitle(rs.getString("title"));
@@ -40,6 +49,9 @@ public class TaskDAO {
             task.setStatus(rs.getString("status"));
             task.setDeadline(rs.getDate("deadline"));
             task.setUserId(rs.getInt("user_id"));
+
+            // 🔥 thêm dòng này
+            task.setUsername(rs.getString("username"));
 
             list.add(task);
         }

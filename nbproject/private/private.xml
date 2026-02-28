@@ -28,6 +28,7 @@
             <file>file:/D:/NetBeansProjects/WorkManagement/src/java/model/User.java</file>
             <file>file:/D:/NetBeansProjects/WorkManagement/src/java/util/DBConnection.java</file>
             <file>file:/D:/NetBeansProjects/WorkManagement/web/index.jsp</file>
+            <file>file:/D:/NetBeansProjects/WorkManagement/src/java/controller/AddTasksPageServlet.java</file>
         </group>
     </open-files>
 </project-private>

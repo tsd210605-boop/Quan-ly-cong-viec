@@ -7,6 +7,7 @@ public class Task {
     private String description;
     private String status;
     private int userId;
+    private String username;
     private java.sql.Date deadline;
 
     public int getId() {
@@ -43,6 +44,13 @@ public class Task {
     public void setUserId(int userId) {
     this.userId = userId;
 }   
+    public String getUsername(){
+        return username;
+    }
+    public void setUsername(String username){
+        this.username = username;
+    }
+    
     public java.sql.Date getDeadline(){
         return deadline;
     }

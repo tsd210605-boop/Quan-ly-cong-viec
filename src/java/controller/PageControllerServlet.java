@@ -12,7 +12,6 @@ import model.User;
 
 @WebServlet({
         "/dashboard",
-        "/add-task-page",
         "/tasks-page",
         "/profile-page",
         "/edit-task-page"

@@ -14,3 +14,7 @@
     <p><strong>Username:</strong> <%= user.getUsername() %></p>
     <p><strong>Role:</strong> <%= user.getRole() %></p>
 </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
